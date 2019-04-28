@@ -22,7 +22,7 @@
                         webkit.messageHandlers.onUpdateCurrentTime.postMessage(time);
                      }
                  }
-                 window.setInterval(updateTime, 500);
+                 window.setInterval(updateTime, 100);
                  });
                  function onReady(event) {
                      webkit.messageHandlers.onReady.postMessage('');
